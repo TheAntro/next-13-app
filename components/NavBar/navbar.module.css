@@ -1,0 +1,14 @@
+.main-nav {
+  padding-block: 1rem;
+}
+
+.main-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.main-nav__item a:hover {
+  border-bottom: 1px solid;
+}
