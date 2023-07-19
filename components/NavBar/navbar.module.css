@@ -1,5 +1,6 @@
 .main-nav {
-  padding-block: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid grey;
 }
 
 .main-nav__list {
