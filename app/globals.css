@@ -1,6 +1,7 @@
 :root {
   --primary-rgb: 0, 0, 0;
   --background-rgb: 255, 255, 255;
+  --border-radius: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,8 +30,8 @@ a {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: var(--background-rgb);
-    color: var(--primary-rgb);
+    background: rgba(var(--background-rgb));
+    color: rgba(var(--primary-rgb));
   }
 }
 
